@@ -1,4 +1,4 @@
-# Classroom Cheat Detection System
+# Online Exam Cheating Detection System
 
 An AI-powered system for detecting potential cheating behaviors in classroom exam environments using advanced computer vision and machine learning.
 
@@ -259,3 +259,6 @@ For issues or questions:
 1. Check the configuration in `config.py`
 2. Review logs in `logs/alerts.json`
 3. Verify all dependencies are installed correctly
+
+## ⚠️ Note
+This project was developed as part of a collaborative/team effort.
