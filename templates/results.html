@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results - Classroom Cheat Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">🎓 CheatGuard AI</div>
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/upload">Upload Video</a></li>
+                    <li><a href="/live">Live Detection</a></li>
+                    <li><a href="/history">History</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="results-header" style="margin: 2rem 0;">
+            <h1>Detection Results</h1>
+            <p style="color: var(--text-secondary);">Analysis complete for: {{ job_data.filename }}</p>
+
+            <div style="margin-top: 1rem;">
+                <a href="{{ url_for('download_video', filename=job_data.output_video) }}" class="btn btn-primary">
+                    ⬇️ Download Annotated Video
+                </a>
+                <a href="{{ url_for('download_report', filename=job_data.report) }}" class="btn btn-secondary">
+                    📊 Download Report (JSON)
+                </a>
+            </div>
+        </section>
+
+        <section class="results-overview" style="margin: 3rem 0;">
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Total Frames</h3>
+                    <p style="font-size: 2rem; font-weight: 700; color: var(--accent-primary);">
+                        {{ job_data.result.total_frames }}
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Duration</h3>
+                    <p style="font-size: 2rem; font-weight: 700; color: var(--accent-primary);">
+                        {{ "%.1f"|format(job_data.result.duration_seconds) }}s
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Total Alerts</h3>
+                    <p style="font-size: 2rem; font-weight: 700; color: var(--accent-danger);">
+                        {{ job_data.result.total_alerts }}
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="video-player" style="margin: 3rem 0;">
+            <h2>Annotated Video</h2>
+            <div class="video-container">
+                <video id="resultVideo" controls>
+                    <source src="{{ url_for('download_video', filename=job_data.output_video) }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <section class="student-summaries" style="margin: 3rem 0;">
+            <h2>Student Analysis</h2>
+            <p style="color: var(--text-secondary); margin-bottom: 1rem;">
+                Behavioral analysis for each tracked student
+            </p>
+
+            <div id="studentSummaries">
+                {% if job_data.result.student_summaries %}
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Student ID</th>
+                            <th>Average Risk Score</th>
+                            <th>Max Risk Score</th>
+                            <th>Severity</th>
+                            <th>Event Count</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for summary in job_data.result.student_summaries %}
+                        <tr>
+                            <td><strong>Student {{ summary.track_id }}</strong></td>
+                            <td>{{ "%.2f"|format(summary.avg_score) }}</td>
+                            <td>{{ "%.2f"|format(summary.max_score) }}</td>
+                            <td>
+                                <span class="status-badge status-{{ summary.severity }}">
+                                    {{ summary.severity|upper }}
+                                </span>
+                            </td>
+                            <td>{{ summary.event_count }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                {% else %}
+                <p style="text-align: center; color: var(--text-muted);">No students detected in the video</p>
+                {% endif %}
+            </div>
+        </section>
+
+        <section class="alert-timeline" style="margin: 3rem 0;">
+            <h2>Alert Timeline</h2>
+            <p style="color: var(--text-secondary); margin-bottom: 1rem;">
+                Chronological view of detected incidents
+            </p>
+            <div id="alertTimeline">
+                <p style="text-align: center; color: var(--text-muted);">Loading timeline...</p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Load and display alert timeline
+        fetch('/api/report/{{ job_data.report }}')
+            .then(response => response.json())
+            .then(data => {
+                const timeline = document.getElementById('alertTimeline');
+
+                if (data.alerts && data.alerts.length > 0) {
+                    // Group alerts by type
+                    const alertsByType = {};
+                    data.alerts.forEach(alert => {
+                        if (!alertsByType[alert.type]) {
+                            alertsByType[alert.type] = [];
+                        }
+                        alertsByType[alert.type].push(alert);
+                    });
+
+                    // Display alerts
+                    let html = '';
+                    for (const [type, alerts] of Object.entries(alertsByType)) {
+                        html += `<div style="margin-bottom: 2rem;">`;
+                        html += `<h3 style="color: var(--accent-primary); margin-bottom: 1rem;">${type.replace('_', ' ').toUpperCase()}</h3>`;
+
+                        alerts.slice(0, 10).forEach(alert => {
+                            const frameTime = (alert.frame / {{ job_data.result.fps }}).toFixed(2);
+                            html += `
+                                <div class="timeline-item" onclick="seekToFrame(${alert.frame})">
+                                    <div class="timeline-time">Frame ${alert.frame} (${frameTime}s)</div>
+                                    <p>${alert.details}</p>
+                                </div>
+                            `;
+                        });
+
+                        if (alerts.length > 10) {
+                            html += `<p style="color: var(--text-muted); text-align: center;">... and ${alerts.length - 10} more</p>`;
+                        }
+
+                        html += `</div>`;
+                    }
+
+                    timeline.innerHTML = html;
+                } else {
+                    timeline.innerHTML = '<p style="text-align: center; color: var(--text-muted);">No alerts detected</p>';
+                }
+            })
+            .catch(error => {
+                console.error('Error loading timeline:', error);
+                document.getElementById('alertTimeline').innerHTML = 
+                    '<p style="color: var(--accent-danger);">Error loading timeline data</p>';
+            });
+
+        // Seek video to specific frame
+        function seekToFrame(frame) {
+            const video = document.getElementById('resultVideo');
+            const fps = {{ job_data.result.fps }};
+            video.currentTime = frame / fps;
+            video.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    </script>
+
+</body>
+
+</html>

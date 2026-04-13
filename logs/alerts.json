@@ -1,0 +1,2318 @@
+[
+  {
+    "timestamp": "20250602_154901",
+    "type": "suspicious_movement",
+    "details": {
+      "track_ids": [
+        "1"
+      ],
+      "snapshot": "logs\\snapshots\\suspicious_movement_20250602_154901.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_154907",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          418,
+          296,
+          639,
+          411
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_154907.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_154926",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          445,
+          301,
+          639,
+          411
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_154926.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_154926",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          443,
+          302,
+          639,
+          412
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_154926.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_154930",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          445,
+          301,
+          639,
+          411
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_154930.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_154938",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          446,
+          302,
+          639,
+          409
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_154938.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_154939",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          457,
+          303,
+          639,
+          412
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_154939.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_154940",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          450,
+          303,
+          638,
+          416
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_154940.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_154946",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          457,
+          302,
+          639,
+          414
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_154946.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_154948",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          457,
+          302,
+          639,
+          415
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_154948.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_154953",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          445,
+          301,
+          639,
+          413
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_154953.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_154953",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          445,
+          301,
+          639,
+          413
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_154953.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_154953",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          447,
+          300,
+          639,
+          411
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_154953.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_154955",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          445,
+          300,
+          639,
+          411
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_154955.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_154955",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          437,
+          298,
+          639,
+          407
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_154955.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155003",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          446,
+          302,
+          639,
+          414
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155003.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155015",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          445,
+          302,
+          640,
+          412
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155015.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155017",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          444,
+          302,
+          639,
+          418
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155017.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155017",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          451,
+          302,
+          639,
+          418
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155017.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155023",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          451,
+          302,
+          640,
+          381
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155023.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155025",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          452,
+          302,
+          640,
+          412
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155025.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155025",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          453,
+          301,
+          640,
+          412
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155025.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155025",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          452,
+          301,
+          640,
+          412
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155025.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155025",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          450,
+          302,
+          640,
+          411
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155025.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155025",
+    "type": "suspicious_movement",
+    "details": {
+      "track_ids": [
+        "1"
+      ],
+      "snapshot": "logs\\snapshots\\suspicious_movement_20250602_155025.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155026",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          455,
+          301,
+          639,
+          413
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155026.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155026",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          455,
+          302,
+          639,
+          412
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155026.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155026",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          453,
+          301,
+          639,
+          415
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155026.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155026",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          459,
+          303,
+          639,
+          413
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155026.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155028",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          457,
+          302,
+          639,
+          411
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155028.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155028",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          456,
+          302,
+          639,
+          412
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155028.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155029",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          456,
+          301,
+          639,
+          414
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155029.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155030",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          457,
+          302,
+          640,
+          414
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155030.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155032",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          457,
+          301,
+          640,
+          412
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155032.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155034",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          455,
+          300,
+          639,
+          412
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155034.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155034",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          455,
+          301,
+          639,
+          411
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155034.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155035",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          457,
+          300,
+          639,
+          411
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155035.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155035",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          453,
+          301,
+          639,
+          412
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155035.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155036",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          457,
+          299,
+          639,
+          414
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155036.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155037",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          453,
+          301,
+          639,
+          412
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155037.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155037",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          455,
+          300,
+          639,
+          411
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155037.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155037",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          452,
+          301,
+          639,
+          415
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155037.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155038",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          454,
+          300,
+          639,
+          411
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155038.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155038",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          455,
+          301,
+          639,
+          413
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155038.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_155041",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          457,
+          301,
+          639,
+          416
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_155041.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165424",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          449,
+          312,
+          595,
+          401
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165424.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165425",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          452,
+          313,
+          594,
+          401
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165425.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165426",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          453,
+          314,
+          595,
+          401
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165426.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165427",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          446,
+          312,
+          589,
+          403
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165427.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165427",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          439,
+          310,
+          589,
+          404
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165427.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165428",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          437,
+          311,
+          588,
+          396
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165428.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165428",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          443,
+          310,
+          589,
+          400
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165428.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165428",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          446,
+          312,
+          589,
+          402
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165428.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165428",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          445,
+          313,
+          588,
+          403
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165428.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165429",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          444,
+          311,
+          588,
+          403
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165429.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165430",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          444,
+          312,
+          589,
+          403
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165430.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165430",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          447,
+          314,
+          588,
+          400
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165430.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165431",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          447,
+          313,
+          589,
+          401
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165431.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165432",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          444,
+          313,
+          588,
+          403
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165432.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165432",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          448,
+          313,
+          589,
+          402
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165432.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165432",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          445,
+          313,
+          589,
+          403
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165432.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165433",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          444,
+          312,
+          588,
+          403
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165433.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165433",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          448,
+          313,
+          588,
+          403
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165433.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165433",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          445,
+          312,
+          588,
+          402
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165433.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165434",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          446,
+          313,
+          589,
+          402
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165434.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165434",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          446,
+          314,
+          588,
+          402
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165434.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165435",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          447,
+          313,
+          589,
+          404
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165435.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165435",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          446,
+          314,
+          589,
+          404
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165435.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165435",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          445,
+          313,
+          589,
+          404
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165435.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165436",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          445,
+          313,
+          589,
+          402
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165436.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165436",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          447,
+          314,
+          588,
+          402
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165436.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165436",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          447,
+          314,
+          589,
+          403
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165436.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165437",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          446,
+          314,
+          588,
+          403
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165437.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165437",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          447,
+          314,
+          589,
+          403
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165437.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165437",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          448,
+          315,
+          589,
+          402
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165437.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165437",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          448,
+          315,
+          589,
+          404
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165437.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165438",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          447,
+          314,
+          590,
+          403
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165438.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165438",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          446,
+          315,
+          591,
+          403
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165438.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165440",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          449,
+          315,
+          589,
+          403
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165440.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165440",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          449,
+          315,
+          589,
+          403
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165440.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165440",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          448,
+          315,
+          592,
+          403
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165440.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165441",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          447,
+          313,
+          591,
+          402
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165441.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165441",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          448,
+          314,
+          591,
+          401
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165441.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165441",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          448,
+          314,
+          588,
+          403
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165441.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165441",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          447,
+          313,
+          590,
+          403
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165441.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165442",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          448,
+          313,
+          591,
+          404
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165442.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165442",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          447,
+          314,
+          589,
+          402
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165442.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165443",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          446,
+          312,
+          590,
+          402
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165443.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165443",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          449,
+          316,
+          589,
+          402
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165443.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165445",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          453,
+          314,
+          592,
+          404
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165445.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165445",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          454,
+          315,
+          590,
+          404
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165445.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165446",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          448,
+          314,
+          590,
+          406
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165446.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165447",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          450,
+          315,
+          591,
+          405
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165447.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165448",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          451,
+          315,
+          590,
+          404
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165448.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165449",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          451,
+          316,
+          589,
+          405
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165449.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165449",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          448,
+          317,
+          578,
+          405
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165449.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165450",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          448,
+          317,
+          577,
+          403
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165450.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165450",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          444,
+          314,
+          580,
+          403
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165450.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165450",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          447,
+          315,
+          584,
+          404
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165450.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165451",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          449,
+          318,
+          573,
+          404
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165451.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165451",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          436,
+          316,
+          569,
+          405
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165451.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165451",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          431,
+          314,
+          569,
+          406
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165451.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165453",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          456,
+          317,
+          591,
+          406
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165453.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165453",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          452,
+          316,
+          591,
+          406
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165453.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165453",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          446,
+          313,
+          585,
+          401
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165453.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165453",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          443,
+          311,
+          575,
+          396
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165453.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165453",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          429,
+          309,
+          572,
+          390
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165453.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165456",
+    "type": "suspicious_movement",
+    "details": {
+      "track_ids": [
+        "1"
+      ],
+      "snapshot": "logs\\snapshots\\suspicious_movement_20250602_165456.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165459",
+    "type": "suspicious_movement",
+    "details": {
+      "track_ids": [
+        "1"
+      ],
+      "snapshot": "logs\\snapshots\\suspicious_movement_20250602_165459.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165502",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          524,
+          292,
+          623,
+          410
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165502.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165503",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          524,
+          292,
+          623,
+          409
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165503.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165503",
+    "type": "suspicious_movement",
+    "details": {
+      "track_ids": [
+        "1"
+      ],
+      "snapshot": "logs\\snapshots\\suspicious_movement_20250602_165503.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165503",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          523,
+          292,
+          620,
+          409
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165503.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165503",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          515,
+          303,
+          604,
+          382
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165503.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165504",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          517,
+          301,
+          606,
+          383
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165504.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165504",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          522,
+          300,
+          610,
+          381
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165504.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165504",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          520,
+          300,
+          609,
+          381
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165504.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165504",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          520,
+          301,
+          607,
+          382
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165504.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165505",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          518,
+          300,
+          605,
+          381
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165505.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165505",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          520,
+          300,
+          606,
+          379
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165505.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165505",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          506,
+          315,
+          602,
+          401
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165505.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165506",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          486,
+          353,
+          575,
+          449
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165506.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165506",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          483,
+          352,
+          568,
+          444
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165506.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165506",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          484,
+          349,
+          568,
+          440
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165506.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165506",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          483,
+          348,
+          569,
+          438
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165506.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165507",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          485,
+          349,
+          572,
+          440
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165507.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165507",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          488,
+          350,
+          571,
+          440
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165507.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165507",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          487,
+          349,
+          573,
+          442
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165507.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165508",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          485,
+          348,
+          572,
+          437
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165508.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165515",
+    "type": "suspicious_movement",
+    "details": {
+      "track_ids": [
+        "1"
+      ],
+      "snapshot": "logs\\snapshots\\suspicious_movement_20250602_165515.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165604",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          518,
+          286,
+          612,
+          397
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165604.jpg"
+    }
+  },
+  {
+    "timestamp": "20250602_165605",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          524,
+          282,
+          639,
+          397
+        ]
+      ],
+      "snapshot": "logs\\snapshots\\phone_detected_20250602_165605.jpg"
+    }
+  },
+  {
+    "timestamp": "20251123_125004",
+    "type": "suspicious_movement",
+    "details": {
+      "track_ids": [
+        "1",
+        "3",
+        "4"
+      ],
+      "snapshot": "logs/snapshots/suspicious_movement_20251123_125004.jpg"
+    }
+  },
+  {
+    "timestamp": "20251123_125009",
+    "type": "suspicious_movement",
+    "details": {
+      "track_ids": [
+        "1",
+        "4"
+      ],
+      "snapshot": "logs/snapshots/suspicious_movement_20251123_125009.jpg"
+    }
+  },
+  {
+    "timestamp": "20251123_125014",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          225,
+          105,
+          704,
+          1037
+        ]
+      ],
+      "snapshot": "logs/snapshots/phone_detected_20251123_125014.jpg"
+    }
+  },
+  {
+    "timestamp": "20251123_125014",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          249,
+          103,
+          726,
+          1045
+        ]
+      ],
+      "snapshot": "logs/snapshots/phone_detected_20251123_125014.jpg"
+    }
+  },
+  {
+    "timestamp": "20251123_125014",
+    "type": "suspicious_movement",
+    "details": {
+      "track_ids": [
+        "1"
+      ],
+      "snapshot": "logs/snapshots/suspicious_movement_20251123_125014.jpg"
+    }
+  },
+  {
+    "timestamp": "20251123_125015",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          240,
+          100,
+          733,
+          1040
+        ]
+      ],
+      "snapshot": "logs/snapshots/phone_detected_20251123_125015.jpg"
+    }
+  },
+  {
+    "timestamp": "20251123_125015",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          240,
+          100,
+          737,
+          1039
+        ]
+      ],
+      "snapshot": "logs/snapshots/phone_detected_20251123_125015.jpg"
+    }
+  },
+  {
+    "timestamp": "20251123_125015",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          239,
+          100,
+          740,
+          1038
+        ]
+      ],
+      "snapshot": "logs/snapshots/phone_detected_20251123_125015.jpg"
+    }
+  },
+  {
+    "timestamp": "20251123_125016",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          242,
+          99,
+          749,
+          1035
+        ]
+      ],
+      "snapshot": "logs/snapshots/phone_detected_20251123_125016.jpg"
+    }
+  },
+  {
+    "timestamp": "20251123_125018",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          191,
+          98,
+          808,
+          1020
+        ]
+      ],
+      "snapshot": "logs/snapshots/phone_detected_20251123_125018.jpg"
+    }
+  },
+  {
+    "timestamp": "20251123_125018",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          201,
+          100,
+          826,
+          1012
+        ]
+      ],
+      "snapshot": "logs/snapshots/phone_detected_20251123_125018.jpg"
+    }
+  },
+  {
+    "timestamp": "20251123_125021",
+    "type": "suspicious_movement",
+    "details": {
+      "track_ids": [
+        "1",
+        "7"
+      ],
+      "snapshot": "logs/snapshots/suspicious_movement_20251123_125021.jpg"
+    }
+  },
+  {
+    "timestamp": "20251123_125021",
+    "type": "phone_detected",
+    "details": {
+      "phone_count": 1,
+      "locations": [
+        [
+          317,
+          273,
+          1214,
+          764
+        ]
+      ],
+      "snapshot": "logs/snapshots/phone_detected_20251123_125021.jpg"
+    }
+  },
+  {
+    "timestamp": "20251123_125026",
+    "type": "suspicious_movement",
+    "details": {
+      "track_ids": [
+        "1",
+        "7"
+      ],
+      "snapshot": "logs/snapshots/suspicious_movement_20251123_125026.jpg"
+    }
+  },
+  {
+    "timestamp": "20251123_125032",
+    "type": "suspicious_movement",
+    "details": {
+      "track_ids": [
+        "1",
+        "7"
+      ],
+      "snapshot": "logs/snapshots/suspicious_movement_20251123_125032.jpg"
+    }
+  },
+  {
+    "timestamp": "20251123_125037",
+    "type": "suspicious_movement",
+    "details": {
+      "track_ids": [
+        "1"
+      ],
+      "snapshot": "logs/snapshots/suspicious_movement_20251123_125037.jpg"
+    }
+  },
+  {
+    "timestamp": "20251123_125042",
+    "type": "suspicious_movement",
+    "details": {
+      "track_ids": [
+        "1"
+      ],
+      "snapshot": "logs/snapshots/suspicious_movement_20251123_125042.jpg"
+    }
+  },
+  {
+    "timestamp": "20251123_125047",
+    "type": "suspicious_movement",
+    "details": {
+      "track_ids": [
+        "1"
+      ],
+      "snapshot": "logs/snapshots/suspicious_movement_20251123_125047.jpg"
+    }
+  }
+]

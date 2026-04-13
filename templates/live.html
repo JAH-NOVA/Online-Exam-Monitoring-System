@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Detection - Classroom Cheat Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">🎓 CheatGuard AI</div>
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/upload">Upload Video</a></li>
+                    <li><a href="/live">Live Detection</a></li>
+                    <li><a href="/history">History</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="live-section" style="margin: 2rem 0;">
+            <h1>Live Camera Detection</h1>
+            <p style="color: var(--text-secondary); margin-bottom: 2rem;">
+                Real-time cheat detection using your webcam
+            </p>
+
+            <div class="live-controls" style="text-align: center; margin-bottom: 2rem;">
+                <button id="startBtn" class="btn btn-primary" onclick="startDetection()">
+                    🎥 Start Live Detection
+                </button>
+                <button id="stopBtn" class="btn btn-secondary" onclick="stopDetection()" style="display: none;">
+                    ⏹️ Stop Detection
+                </button>
+                <div id="statusMessage" style="margin-top: 1rem; color: var(--text-secondary);"></div>
+            </div>
+
+            <div class="video-container" id="videoContainer" style="display: none;">
+                <img id="liveFeed" src="" alt="Live Feed" style="width: 100%; border-radius: 12px;">
+            </div>
+
+            <div id="cameraInfo" style="display: none; margin-top: 2rem;">
+                <div class="card-grid">
+                    <div class="card">
+                        <h3>🎯 Detection Status</h3>
+                        <p id="detectionStatus">Active</p>
+                    </div>
+                    <div class="card">
+                        <h3>👥 Students Tracked</h3>
+                        <p id="studentCount">--</p>
+                    </div>
+                    <div class="card">
+                        <h3>⚠️ Current Alerts</h3>
+                        <p id="alertCount">--</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="live-tips" style="margin-top: 3rem;">
+            <h2>Tips for Live Detection</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>📹 Camera Position</h3>
+                    <p>Position your camera to capture students' faces and upper bodies clearly</p>
+                </div>
+                <div class="card">
+                    <h3>💡 Lighting</h3>
+                    <p>Ensure the classroom is well-lit with faces clearly visible</p>
+                </div>
+                <div class="card">
+                    <h3>🔒 Privacy</h3>
+                    <p>Inform students that live monitoring is active and ensure compliance with privacy regulations</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-info" style="margin-top: 3rem;">
+            <h2>What's Being Detected</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-time">Head Pose</div>
+                    <p>Tracks if students are looking sideways or down at unauthorized materials</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">Object Detection</div>
+                    <p>Identifies phones, books, and other prohibited items</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">Movement Tracking</div>
+                    <p>Monitors if students leave their designated zones or move excessively</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">Behavior Analysis</div>
+                    <p>Calculates real-time risk scores based on all detected behaviors</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        let detectionActive = false;
+
+        async function startDetection() {
+            try {
+                document.getElementById('statusMessage').textContent = 'Starting camera...';
+
+                const response = await fetch('/live/start', {
+                    method: 'POST'
+                });
+
+                if (!response.ok) {
+                    const error = await response.json();
+                    throw new Error(error.error || 'Failed to start detection');
+                }
+
+                detectionActive = true;
+                document.getElementById('startBtn').style.display = 'none';
+                document.getElementById('stopBtn').style.display = 'inline-block';
+                document.getElementById('videoContainer').style.display = 'block';
+                document.getElementById('cameraInfo').style.display = 'block';
+                document.getElementById('statusMessage').textContent = 'Live detection active';
+                document.getElementById('statusMessage').style.color = 'var(--accent-success)';
+
+                // Start video feed
+                document.getElementById('liveFeed').src = '/live/feed?' + new Date().getTime();
+
+            } catch (error) {
+                console.error('Error starting detection:', error);
+                document.getElementById('statusMessage').textContent = error.message;
+                document.getElementById('statusMessage').style.color = 'var(--accent-danger)';
+                alert('Error: ' + error.message + '\n\nPlease ensure:\n1. Camera permissions are granted\n2. No other application is using the camera');
+            }
+        }
+
+        async function stopDetection() {
+            try {
+                const response = await fetch('/live/stop', {
+                    method: 'POST'
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to stop detection');
+                }
+
+                detectionActive = false;
+                document.getElementById('startBtn').style.display = 'inline-block';
+                document.getElementById('stopBtn').style.display = 'none';
+                document.getElementById('videoContainer').style.display = 'none';
+                document.getElementById('cameraInfo').style.display = 'none';
+                document.getElementById('statusMessage').textContent = 'Detection stopped';
+                document.getElementById('statusMessage').style.color = 'var(--text-secondary)';
+
+                // Clear video feed
+                document.getElementById('liveFeed').src = '';
+
+            } catch (error) {
+                console.error('Error stopping detection:', error);
+                alert('Error stopping detection: ' + error.message);
+            }
+        }
+
+        // Clean up on page unload
+        window.addEventListener('beforeunload', function () {
+            if (detectionActive) {
+                stopDetection();
+            }
+        });
+    </script>
+</body>
+
+</html>

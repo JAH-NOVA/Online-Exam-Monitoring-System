@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processing History - Classroom Cheat Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">🎓 CheatGuard AI</div>
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/upload">Upload Video</a></li>
+                    <li><a href="/live">Live Detection</a></li>
+                    <li><a href="/history">History</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="history-section" style="margin: 2rem 0;">
+            <h1>Processing History</h1>
+            <p style="color: var(--text-secondary); margin-bottom: 2rem;">View all your processed videos</p>
+
+            {% if jobs %}
+            <table>
+                <thead>
+                    <tr>
+                        <th>Job ID</th>
+                        <th>Filename</th>
+                        <th>Status</th>
+                        <th>Progress</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for job in jobs %}
+                    <tr>
+                        <td>{{ job.job_id }}</td>
+                        <td>{{ job.filename }}</td>
+                        <td>
+                            {% if job.status == 'completed' %}
+                            <span class="status-badge status-normal">✓ Completed</span>
+                            {% elif job.status == 'processing' %}
+                            <span class="status-badge status-low">⏳ Processing</span>
+                            {% elif job.status == 'error' %}
+                            <span class="status-badge status-high">✗ Error</span>
+                            {% else %}
+                            <span class="status-badge status-medium">⌛ Queued</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            <div class="progress-bar" style="width: 150px; height: 6px;">
+                                <div class="progress-fill" style="width: {{ job.progress }}%;"></div>
+                            </div>
+                            <span style="font-size: 0.875rem; color: var(--text-muted);">{{ job.progress }}%</span>
+                        </td>
+                        <td>
+                            {% if job.status == 'completed' %}
+                            <a href="/results/{{ job.job_id }}" class="btn btn-secondary"
+                                style="padding: 0.5rem 1rem; font-size: 0.875rem;">
+                                View Results
+                            </a>
+                            {% elif job.status == 'processing' or job.status == 'queued' %}
+                            <button onclick="checkStatus('{{ job.job_id }}')" class="btn btn-secondary"
+                                style="padding: 0.5rem 1rem; font-size: 0.875rem;">
+                                Refresh
+                            </button>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            {% else %}
+            <div class="card" style="text-align: center; padding: 3rem;">
+                <h2 style="color: var(--text-muted);">No videos processed yet</h2>
+                <p style="color: var(--text-secondary); margin: 1rem 0;">Upload your first video to get started</p>
+                <a href="/upload" class="btn btn-primary" style="margin-top: 1rem;">Upload Video</a>
+            </div>
+            {% endif %}
+        </section>
+    </main>
+
+    <script>
+        function checkStatus(jobId) {
+            location.reload();
+        }
+    </script>
+</body>
+
+</html>

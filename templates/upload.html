@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Video - Classroom Cheat Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">🎓 CheatGuard AI</div>
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/upload">Upload Video</a></li>
+                    <li><a href="/live">Live Detection</a></li>
+                    <li><a href="/history">History</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="upload-section">
+            <h1 style="text-align: center; margin-bottom: 2rem;">Upload Classroom Video</h1>
+
+            <div class="upload-card">
+                <form id="uploadForm" enctype="multipart/form-data">
+                    <div class="upload-zone" id="uploadZone">
+                        <div class="upload-icon">📹</div>
+                        <h3>Drag & Drop Video Here</h3>
+                        <p style="color: var(--text-secondary); margin: 1rem 0;">or click to browse</p>
+                        <input type="file" id="videoFile" name="video" accept="video/*" style="display: none;">
+                        <button type="button" class="btn btn-primary"
+                            onclick="document.getElementById('videoFile').click()">
+                            Select Video File
+                        </button>
+                        <p style="color: var(--text-muted); font-size: 0.875rem; margin-top: 1rem;">
+                            Supported formats: MP4, AVI, MOV, MKV, FLV, WMV (Max 500MB)
+                        </p>
+                    </div>
+
+                    <div id="fileInfo" style="margin-top: 2rem; display: none;">
+                        <h3>Selected File</h3>
+                        <p id="fileName"></p>
+                        <p id="fileSize" style="color: var(--text-secondary);"></p>
+                        <button type="submit" class="btn btn-primary" style="margin-top: 1rem;">
+                            Start Processing
+                        </button>
+                    </div>
+                </form>
+
+                <div class="progress-container" id="progressContainer">
+                    <h3>Processing Video...</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <div class="progress-text" id="progressText">0% Complete</div>
+                    <p style="color: var(--text-secondary); margin-top: 1rem; text-align: center;">
+                        <span class="spinner" style="vertical-align: middle;"></span>
+                        <span id="statusMessage">Uploading video...</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="tips" style="margin-top: 3rem;">
+            <h2 style="text-align: center; margin-bottom: 2rem;">Tips for Best Results</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>📹 Video Quality</h3>
+                    <p>Use videos with clear visibility of students' faces and upper bodies for best detection accuracy
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>💡 Lighting</h3>
+                    <p>Well-lit videos produce better results. Avoid backlighting and shadows on faces</p>
+                </div>
+                <div class="card">
+                    <h3>📐 Camera Angle</h3>
+                    <p>Wide-angle shots that capture multiple students work best for comprehensive monitoring</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+
+</html>

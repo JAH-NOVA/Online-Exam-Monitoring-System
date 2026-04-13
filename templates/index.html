@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classroom Cheat Detection - AI-Powered Exam Monitoring</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">🎓 CheatGuard AI</div>
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/upload">Upload Video</a></li>
+                    <li><a href="/live">Live Detection</a></li>
+                    <li><a href="/history">History</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>AI-Powered Classroom Monitoring</h1>
+            <p>Upload classroom exam videos and get intelligent cheating detection with advanced computer vision</p>
+            <a href="/upload" class="btn btn-primary">Upload Video Now</a>
+        </section>
+
+        <section class="features">
+            <div class="card-grid">
+                <div class="card fade-in">
+                    <h3>👁️ Head Pose Detection</h3>
+                    <p>Advanced detection of sideways and downward looking with sustained tracking</p>
+                    <ul>
+                        <li>Dynamic threshold adjustment</li>
+                        <li>Multi-face tracking</li>
+                        <li>Confidence scoring</li>
+                    </ul>
+                </div>
+
+                <div class="card fade-in" style="animation-delay: 0.1s;">
+                    <h3>📱 Object Detection</h3>
+                    <p>Identify phones, books, and other prohibited items with high accuracy</p>
+                    <ul>
+                        <li>Phone detection</li>
+                        <li>Object passing detection</li>
+                        <li>Spatial analysis</li>
+                    </ul>
+                </div>
+
+                <div class="card fade-in" style="animation-delay: 0.2s;">
+                    <h3>🚶 Movement Tracking</h3>
+                    <p>Track student movements and detect zone violations</p>
+                    <ul>
+                        <li>Zone-based tracking</li>
+                        <li>Velocity analysis</li>
+                        <li>Interaction detection</li>
+                    </ul>
+                </div>
+
+                <div class="card fade-in" style="animation-delay: 0.3s;">
+                    <h3>🎯 Behavior Scoring</h3>
+                    <p>Comprehensive cheating probability scores for each student</p>
+                    <ul>
+                        <li>Multi-signal aggregation</li>
+                        <li>Severity levels</li>
+                        <li>Timeline tracking</li>
+                    </ul>
+                </div>
+
+                <div class="card fade-in" style="animation-delay: 0.4s;">
+                    <h3>📊 Detailed Reports</h3>
+                    <p>Get comprehensive analysis with exportable reports</p>
+                    <ul>
+                        <li>Student-wise breakdown</li>
+                        <li>Event timeline</li>
+                        <li>JSON export</li>
+                    </ul>
+                </div>
+
+                <div class="card fade-in" style="animation-delay: 0.5s;">
+                    <h3>🎬 Annotated Videos</h3>
+                    <p>Download processed videos with all detections highlighted</p>
+                    <ul>
+                        <li>Visual annotations</li>
+                        <li>Color-coded alerts</li>
+                        <li>Frame-by-frame analysis</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works" style="margin: 4rem 0;">
+            <h2 style="text-align: center; margin-bottom: 2rem; font-size: 2.5rem;">How It Works</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-time">Step 1</div>
+                    <h3>Upload Video</h3>
+                    <p>Upload your classroom exam video (supports MP4, AVI, MOV, MKV formats, up to 500MB)</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">Step 2</div>
+                    <h3>AI Processing</h3>
+                    <p>Our advanced AI analyzes every frame for suspicious behaviors using multiple detection algorithms
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">Step 3</div>
+                    <h3>Review Results</h3>
+                    <p>View annotated video with timeline of incidents, student-wise reports, and severity analysis</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">Step 4</div>
+                    <h3>Download & Export</h3>
+                    <p>Download the processed video and comprehensive JSON report for your records</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta"
+            style="text-align: center; margin: 4rem 0; padding: 3rem; background: var(--glass-bg); border-radius: 16px;">
+            <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Ready to Get Started?</h2>
+            <p style="color: var(--text-secondary); margin-bottom: 2rem;">Upload your first video and see the power of
+                AI-driven exam monitoring</p>
+            <a href="/upload" class="btn btn-primary" style="font-size: 1.1rem;">Upload Video Now</a>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 2rem 0; margin-top: 4rem; border-top: 1px solid var(--border-color);">
+        <p style="color: var(--text-muted);">&copy; 2024 CheatGuard AI - Classroom Cheat Detection System</p>
+    </footer>
+</body>
+
+</html>
