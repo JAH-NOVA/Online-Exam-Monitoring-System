@@ -260,8 +260,8 @@ For issues or questions:
 2. Review logs in `logs/alerts.json`
 3. Verify all dependencies are installed correctly
 
-**Demo Video**
-Watch Demo:https://drive.google.com/file/d/1r_nBnxj1b359L9YE5uO0kOVkalCwhoHS/view?usp=drive_link
+## Demo Video
+Watch Demo: https://drive.google.com/file/d/1r_nBnxj1b359L9YE5uO0kOVkalCwhoHS/view?usp=drive_link
 
 ## ⚠️ Note
 This project was developed as part of a collaborative/team effort.
